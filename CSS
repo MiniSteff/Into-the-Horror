@@ -205,7 +205,7 @@
 .sheet-d20 + span{ background: url('https://raw.githubusercontent.com/MiniSteff/Into-the-Myth/master/d20n.png'); background-size: 33px 33px;}
 .sheet-d6 + span{ background: url('https://raw.githubusercontent.com/MiniSteff/Into-the-Myth/master/d6n.png'); background-size: 33px 33px;}
 
-.sheet-caracteristique input[name="attr_lancerDe"]{ width: 30px;}
+.sheet-caracteristique input[name="attr_lancerDe"]{ width: 150px;}
 
 .sheet-d6_2{
     display: inline-block;

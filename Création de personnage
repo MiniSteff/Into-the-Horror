@@ -18,12 +18,24 @@ Si votre volonté est :
 
 ○ Définir ses compétences
 ---------------------------------------------------------------
+Votre personnage possède 3 compétences
+
 Si votre intelligence est :
-  - Inférieur à 9, 4 compétences
-  - Inférieur à 11, 3 compétences
-  - Inférieur à 13, 2 compétences
-  - Inférieur à 15, 1 compétence
+  - Inférieur à 9, vous avez 3 compétences en plus
+  - Inférieur à 11, vous avez 3 compétences en plus
+  - Inférieur à 13, vous avez 2 compétences en plus
+  - Inférieur à 15, vous n'avez pas de compétence suplémentaire
 
 Il n'existe pas une liste prédéfinit de compétences, mais quelques exemples possibles
-Antrhopologie         Archéologie         Arme à feu        Arme blanche          Arts
-Astronomie            Baratin             Bibliothèque      Biologie              Botanique
+Antrhopologie         Archéologie           Arme à feu          Arme blanche          Arts
+Astronomie            Baratin               Bibliothèque        Biologie              Botanique
+Charme                Chimie                Comédie             Conduite              Contrefaçon
+Crochetage            Cryptographie         Discrétion          Dressagea             Droit
+Ecouter               Electricité           Electronique        Equitation            Esquive
+Estimation            Explosif              Géologie            Grimper               Histoire
+Hypnose               Imposture             Informatique        Inginerie             Intimidation
+Langues (...)         Lire sur les lèvres   Mathématiques       Mécanique             Médecine
+Météorologie          Mythe                 Nager               Occultisme            Orientation
+Persuasion            Pharmacologie         Photographie        Pickpocket            Pister
+Psychologie           Science               Survie              Zoologie              Athlétisme
+Acrobatie          compéten

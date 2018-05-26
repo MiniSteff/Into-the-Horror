@@ -53,6 +53,23 @@ Si votre force est de 9 à 13, vous avez :
   - Une arme à feu à deux mains (1d8/dextérité)
   
 Si votre force est supérieur à 14, vous avez :
-    - Une arme blanche à une main (1d6/force)
-    - Une arme blanche à une main (1d6/dextérité)
-    - Une arme à feu à une main (1d6/dextérité)
+    - Une arme blanche à une main (1d4/force)
+    - Une arme blanche à une main (1d4/dextérité)
+    - Une arme à feu à une main (1d4/dextérité)
+
+○ Définir ses possessions
+---------------------------------------------------------------
+Votre argent de départ est de 50$ moins votre Dextérité et votre Volonté
+
+Vous êtes libre de dépenser ou non votre argent en début de partie
+Il n'existe pas une liste prédéfinit d'objet, demandez à votre MJ pour un objet particulier
+
+- Arme blanche à une main (1d4/force)                           10$
+- Arme à feu à une main (1d4/dextérité)                         15$
+- Arme blanche à deux main (1d6/force)                          20$
+- Outil (scie, marteau, barre à mine... etc)                    4$ l'outil
+- Objet commum (cigarette, briquet, crayon...etc                2$
+- Objet de luxe (montre, jumelle, lampe... etc)                 5$
+- Objet spécifique (premier soin, outil de crochetage...etc)    10$
+- Vivres (alcool, boisson, ration...etc)                        1$ par unité
+- Logement (à la semaine)                                       5$ / 10$ / 15$ / 20$

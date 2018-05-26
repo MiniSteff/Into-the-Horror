@@ -1,0 +1,245 @@
+.charsheet 
+{ 
+    font-family: 'Times New Roman' !important;
+    background: url("https://raw.githubusercontent.com/MiniSteff/Into-the-Myth/master/bg.jpg");
+    margin: 0;
+    padding: 0;
+    color: #662c2b;
+    font-size: 15px;
+    width: 800px;
+    background: ;
+    box-sizing: border-box;}
+
+
+
+.charsheet *, .charsheet *:before, .charsheet *:after {
+    box-sizing: inherit;}
+
+/* Redéfinie des trucs à zéro, retirer les puces des listes et la décoraction des liens */
+.charsheet h1, .charsheet h2, .charsheet h3, .charsheet h4, .charsheeth5, 
+.charsheet h6, .charsheet a, .charsheet p, .charsheet span, .charsheet div,
+.charsheet figure, .charsheet img, .charsheet ul, .charsheet li,
+.charsheet body, .charsheet fieldset, .charsheet input, .charsheet label, .charsheet textarea, .charsheet select 
+{
+	margin: 0; padding: 0; border: 0; background: transparent;
+	list-style: none;
+	box-shadow: 0 0 0 #000000; border-radius: 0;}
+
+/* INFORMATION ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ */
+.sheet-information{
+    background: rgba(105,131,123,0.9);
+    width: 500px;
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.5);
+    color: #e1e6e4;
+    padding: 10px;}
+
+.sheet-information p, .sheet-information input{ 
+    font-family: 'Times New Roman' !important;
+    display: inline-block;}
+
+.sheet-information p{
+    width: 150px;
+    font-size: 18px;
+}
+
+.sheet-information input{
+    width: 330px;
+    font-size: 15px;
+    color: #e1e6e4;
+    font-style: italic;}
+    
+.sheet-information textarea{
+    width: 480px;
+    height: 200px;
+    font-size: 15px;
+    font-family: 'Times New Roman' !important;
+    background: rgba(0,0,0,0.1);
+    color: #e1e6e4;
+    font-style: italic;
+    padding: 5px;}
+/* INFORMATION ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ */
+
+/* COMPETENCE ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ */
+.sheet-caracteristique{
+    background: rgba(255,255,255,0.9);
+    width: 700px;
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.5);
+    color: #000000;
+    padding: 10px;}
+
+.sheet-caracteristique li{ 
+    display: inline-block;}
+    
+.sheet-caracteristique .sheet-li1{
+    width: 170px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;}
+
+.sheet-caracteristique .sheet-li2{
+    width: 45px;
+    margin-right: 0px;
+    text-align: center;}
+    
+.sheet-caracteristique .sheet-li2:nth-child(2n+0){
+    margin-right:40px;}
+
+.sheet-caracteristique .sheet-li2:nth-child(2n+1){
+    margin-left:40px;}
+
+.sheet-caracteristique .sheet-li2 input{
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    border: 1px solid #000000;}
+
+.sheet-caracteristique .sheet-li2:nth-child(2n+0) input{
+    background: rgba(0,0,0,0.05);
+    margin-left: 0px;}
+
+.sheet-competence select, .sheet-armes select{
+    border: 1px solid #bbbbbb;
+    font-family: 'Times New Roman' !important;
+    margin-left: 10px;
+    font-size: 12px;
+    width: 60px;
+    height: 20px;}
+    
+.sheet-competence input, .sheet-armes input{
+    font-family: 'Times New Roman' !important;
+    width: 200px;
+    font-size: 15px;}
+
+.sheet-armes input[name="attr_aDegat"]{
+    width: 50px;}
+    
+.sheet-competence input{
+    width: 255px;}
+    
+.sheet-caracteristique textarea{
+    width: 680px;
+    height: 100px;
+    font-size: 15px;
+    font-family: 'Times New Roman' !important;
+    background: rgba(0,0,0,0.02);
+    color: #000000;
+    padding: 5px;}
+
+.sheet-border-bottom{
+    padding: 5px 0;
+    border-bottom: 1px dashed rgba(0,0,0,0.3);}
+
+.sheet-equipements .sheet-titre1{
+    margin-bottom: 5px;}
+
+.sheet-pointDeVie, .sheet-santeMentale{
+    display: inline-block;
+    width: 200px;
+    margin: 0 5px;}
+
+.sheet-pointDeVie{ margin-left: 130px;}
+.sheet-santeMentale{ margin-right: 130px;}
+
+.sheet-titre1 {
+    font-size: 25px;
+    font-family: 'Times New Roman' !important;}
+
+.sheet-titre1 + p, .sheet-titre1 + p input  {
+    font-style: italic;}
+    
+.sheet-titre1 + p input{
+    width: 50px;}
+
+.sheet-pointDeVie input[type="radio"], .sheet-santeMentale input[type="radio"]{
+    position: relative;
+    z-index: 1;
+    vertical-align: top;
+    opacity: 0;
+    height: 25px;
+    width: 25px;
+    margin-top: -1px;
+    margin-right: -25px;}
+
+.sheet-pointDeVie input ~ span{
+    display: inline-block;
+    background: url('https://raw.githubusercontent.com/MiniSteff/Into-the-Myth/master/coeur.png') center center;
+    background-size: 25px 25px;
+    opacity: 1;
+    height: 25px;
+    width: 25px;
+    transition: 0.3s all ease-in;}
+
+.sheet-santeMentale input ~ span{
+    display: inline-block;
+    background: url('https://raw.githubusercontent.com/MiniSteff/Into-the-Myth/master/cerveau.png') center center;
+    background-size: 25px 25px;
+    opacity: 1;
+    height: 25px;
+    width: 25px;
+    transition: 0.3s all ease-in;}
+
+.sheet-pointDeVie input:checked ~ span, .sheet-santeMentale input:checked ~ span{opacity: 0.3;}
+.sheet-pointDeVie input:checked + span, .sheet-santeMentale input:checked + span{opacity: 1;}
+
+.sheet-d20, .sheet-d6{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 33px;
+    height: 33px;
+    opacity: 0;}
+    
+.sheet-d20 + span, .sheet-d6 + span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -36px;
+    height: 33px;
+    width: 33px;
+    opacity: 0.7;
+    transition: 0.3s all ease-in;}
+    
+.sheet-d20:hover + span, .sheet-d6:hover + span{ opacity: 1;}
+
+.sheet-d20 + span{ background: url('https://raw.githubusercontent.com/MiniSteff/Into-the-Myth/master/d20n.png'); background-size: 33px 33px;}
+.sheet-d6 + span{ background: url('https://raw.githubusercontent.com/MiniSteff/Into-the-Myth/master/d6n.png'); background-size: 33px 33px;}
+
+.sheet-caracteristique input[name="attr_lancerDe"]{ width: 30px;}
+
+.sheet-d6_2{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-left: -2px !important;
+    width: 25px;
+    height: 25px;
+    opacity: 0;}
+    
+.sheet-d6_2 + span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -28px;
+    height: 25px;
+    width: 25px;
+    opacity: 0.7;
+    transition: 0.3s all ease-in;}
+    
+.sheet-d6_2:hover + span{ opacity: 1;}
+
+.sheet-d6_2 + span{ background: url('https://raw.githubusercontent.com/MiniSteff/Into-the-Myth/master/d6n.png'); background-size: 25px 25px;}
+
+/* COMPETENCE ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ */
+
+/* COMPETENCE ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ */
+.btn{
+    position: relative;
+    z-index: 100;
+    border-radius: 0;
+    margin: 10px 0;
+    background: rgba(0,0,0,0.1);}
+
+.repcontrol_move, .repcontrol_del{
+    position: relative;
+    z-index: 100;}
+/* COMPETENCE ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ */

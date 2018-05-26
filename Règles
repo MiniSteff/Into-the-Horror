@@ -13,3 +13,20 @@ Votre résultat doit être inférieur à la caractéristique associé à l'actio
 Quand vous entrepennez une action associé à l'une de vos compétences lancez 2d20
 Vous conservez le résultat le plus bas pour juger de la réussite ou l'échec de votre action
 
+○ Les points de vie / santé mentale
+-----------------------------------------------------------------
+Quand vos points de vie tombent à zéro,
+Si votre force est supérieur à 10, reprennez la moitié (inférieur) de vos points de vie et réduisez votre force de 1
+Si votre force est inférieur à 10, faites un test de force, sur un échec votre personnage meurt de ses blessures
+Sur une réussite, reprennez la moitié (inférieur) de vos points de vie et réduisez votre force de 1
+
+Quand votre santé mentale tombent à zéro,
+Si votre volonté est supérieur à 10, reprennez la moitié (inférieur) de votre santé mentale et réduisez votre volonté de 1
+Si votre volonté est inférieur à 10, faites un test de volonté, sur un échec votre personnage meurt de sa folie
+Sur une réussite, reprennez la moitié (inférieur) de votre santé mentale et réduisez votre force de 1
+
+○ Se reposer
+-----------------------------------------------------------------
+Un repos d'une heure soigne vos points de vie et votre santé mentale
+Un repos d'une semaine dans un lieu apaisante récupérez vos points de force et volonté perdu
+

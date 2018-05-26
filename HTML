@@ -1,0 +1,87 @@
+<div class="sheet-information">
+    <p>Nom</p><input type="text" name="attr_jNom" placeholder="............................................................................"></input><br>
+    <p>Métier</p><input type="text" name="attr_jMetier" placeholder="............................................................................"></input><br>
+    <p>Expérience</p><input type="text" name="attr_jExperience" placeholder="............................................................................"></input><br><br>
+    <p>Notes</p><br>
+    <textarea name="attr_jNotes" placeholder="............................................................................"></textarea>
+</div>
+<br>
+<div class="sheet-caracteristique">
+    <p>Jet caché ? <input type="radio" name="attr_jetCache" value="gm"></input> oui <input type="radio" name="attr_jetCache" value="" checked></input> non</p>
+    <button type="roll" class="sheet-d6_2" value="/@{jetCache}roll @{lancerDe}"></button><span></span><input type="text" name="attr_lancerDe" placeholder="1d4"></input>
+    <br><br>
+    <ul>
+        <li class="sheet-li1"><button class="sheet-d20" type="roll" value="/@{jetCache}roll 1d20<@{jForce}"></button><span></span> Force</li><!--
+        --><li class="sheet-li1"><button class="sheet-d20" type="roll" value="/@{jetCache}roll 1d20<@{jDexterite}"></button><span></span> Dextérité</li><!--
+        --><li class="sheet-li1"><button class="sheet-d20" type="roll" value="/@{jetCache}roll 1d20<@{jIntelligence}"></button><span></span> Intelligence</li><!--
+        --><li class="sheet-li1"><button class="sheet-d20" type="roll" value="/@{jetCache}roll 1d20<@{jVolonte}"></button><span></span> Volonté</li>
+    </ul>
+    <ul>
+        <li class="sheet-li2"><input type="text" name="attr_jForce" value="0"></input></li><!--
+        --><li class="sheet-li2"><input type="text" name="attr_jForceMax" value="0"></input></li><!--
+        --><li class="sheet-li2"><input type="text" name="attr_jDexterite" value="0"></input></li><!--
+        --><li class="sheet-li2"><input type="text" name="attr_jDexteriteMax" value="0"></input></li><!--
+        --><li class="sheet-li2"><input type="text" name="attr_jIntelligence" value="0"></input></li><!--
+        --><li class="sheet-li2"><input type="text" name="attr_jIntelligenceMax" value="0"></input></li><!--
+        --><li class="sheet-li2"><input type="text" name="attr_jVolonte" value="0"></input></li><!--
+        --><li class="sheet-li2"><input type="text" name="attr_jVolonteMax" value="0"></input></li>
+    </ul>
+    <br>
+    
+    <div class="sheet-pointDeVie">
+        <p class="sheet-titre1"> Point de vie</p>
+        <p>Point de vie max : <input type="text" name="attr_jPointDeVieMax" value="1"></input></p>
+        <input type="radio" value="1" name="attr_jPointDeVie" checked></input><span></span>
+        <input type="radio" value="2" name="attr_jPointDeVie"></input><span></span>
+        <input type="radio" value="3" name="attr_jPointDeVie"></input><span></span>
+        <input type="radio" value="4" name="attr_jPointDeVie"></input><span></span>
+        <input type="radio" value="5" name="attr_jPointDeVie"></input><span></span>
+        <input type="radio" value="6" name="attr_jPointDeVie"></input><span></span>
+    </div>
+
+    <div class="sheet-santeMentale">
+        <p class="sheet-titre1"> Santé mentale</p>
+        <p>Santé mentale max : <input type="text" name="attr_jSanteMentaleMax" value="1"></input></p>
+        <input type="radio" value="1" name="attr_jSanteMentale" checked></input><span></span>
+        <input type="radio" value="2" name="attr_jSanteMentale"></input><span></span>
+        <input type="radio" value="3" name="attr_jSanteMentale"></input><span></span>
+        <input type="radio" value="4" name="attr_jSanteMentale"></input><span></span>
+        <input type="radio" value="5" name="attr_jSanteMentale"></input><span></span>
+        <input type="radio" value="6" name="attr_jSanteMentale"></input><span></span>
+    </div>
+    <br><br><br>
+
+    <div class="sheet-competence">
+        <p class="sheet-titre1"> Competences</p>
+        <fieldset class="repeating_competence">
+            <div class="sheet-border-bottom">
+                <button type="roll" class="sheet-d20" value="/@{jetCache}roll 2d20kl1<@{cCaracteristique}"></button><span></span>
+                <input type="text" name="attr_cNom" placeholder="Nom de la compétence"></input>
+                <select name="attr_cCaracteristique">
+                    <option value="@{jForce}">FOR</option>
+                    <option value="@{jDexterite}">DEX</option>
+                    <option value="@{jIntelligence}">INT</option>
+                    <option value="@{jVolonte}">VOL</option>
+                </select>
+            </div>
+        </fieldset>
+    </div>
+    <br>
+    
+    <div class="armes">
+        <p class="sheet-titre1"> Armes</p>
+        <fieldset class="repeating_armes">
+            <div class="sheet-border-bottom">
+                <button type="roll" class="sheet-d6" value="/@{jetCache}roll @{aDegat}"></button><span></span>
+                <input type="text" name="attr_aNom" placeholder="Nom de l'arme"></input>
+                <input type="text" name="attr_aDegat" placeholder="1d4"></input>
+            </div>
+        <fieldset>
+    </div>
+    <br>
+    
+    <div class="equipements">
+        <p class="sheet-titre1"> Équipements</p>
+        <textarea name="attr_eEquipement" placeholder="....................................."></textarea>
+    </div>
+</div>

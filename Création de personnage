@@ -43,12 +43,12 @@ Acrobatie
 ○ Définir vos armes
 ---------------------------------------------------------------
 Si votre force est inférieur à 9, vous avez :
-  - Une arme blanche à deux main (1d6/force) et une arme à feu à une main (1d6/dextérité)
+  - Une arme blanche à deux main (1d6/force) et une arme à feu à une main (1d4/dextérité)
   - Une arme blanche à une main (1d4/force) et une arme à feu à deux mains (1d8/dextérité)
   - Une arme blanche à une main (1d4/dextérité) et une arme à feu à deux mains (1d8/dextérité)
 
 Si votre force est de 9 à 13, vous avez :
-  - Une arme blanche à une main (1d6/force) et une arme à feu à une main (1d6/dextérité) 
+  - Une arme blanche à une main (1d6/force) et une arme à feu à une main (1d4/dextérité) 
   - Une arme blanche à deux mains (1d8/force)
   - Une arme à feu à deux mains (1d8/dextérité)
   

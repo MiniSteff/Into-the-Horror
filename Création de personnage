@@ -28,18 +28,21 @@ Si votre intelligence est :
   - Inférieur à 15, vous n'avez pas de compétence suplémentaire
 
 Il n'existe pas une liste prédéfinit de compétences, mais quelques exemples possibles
-Antrhopologie (Int)   Archéologie (Int)           Arme à feu (Dex)      Arme blanche (For)    Arts  (Int)
-Astronomie (Int)      Baratin (Int)               Bibliothèque (Int)    Biologie (Int)        Botanique (Int)
-Charme (Int)          Chimie (Int)                Comédie (Int)         Conduite (Dex)        Contrefaçon (Dex)
-Crochetage (Dex)      Discrétion (Dex)            Dressage (For)        Sang-Froid (Vol)      Acrobatie (Dex)
-Ecouter (Int)         Electricité (Int)           Electronique  (Int)   Equitation (Dex)      Esquive (Dex)
-Parer (For)           Endurance (For)             Porter (For)          Main nue (For)        Stoïque (For)   
-Estimation (Int)      Explosif (Dex)              Géologie  (Int)       Grimper (For)         Histoire (Int)
-Hypnose (Vol)         Informatique (Int)          Inginerie (Int)       Intimidation (For)    Chirurgie (Dex)
-Langues (Int)         Lire sur les lèvres (Int)   Mathématiques (Int)   Mécanique (Int)       Médecine (Int)
-Météorologie (Int)    Mythe (Int)                 Nager (For)           Occultisme (Int)      Orientation (Int)
-Persuasion (Int)      Pharmacologie (Int)         Photographie (Int)    Pickpocket (Dex)      Pister (Int)
-Psychologie (Int)     Science (Int)               Survie (For)          Zoologie (Int)        Athlétisme (For)
+Antrhopologie (Int)   Archéologie (Int)           Arme à feu (Dex)      Arme blanche (For)    
+Arts  (Int)           Astronomie (Int)            Baratin (Int)         Bibliothèque (Int)    
+Biologie (Int)        Botanique (Int)             Charme (Int)          Chimie (Int)                
+Comédie (Int)         Conduite (Dex)              Contrefaçon (Dex)     Crochetage (Dex)      
+Discrétion (Dex)      Dressage (For)              Sang-Froid (Vol)      Acrobatie (Dex)
+Ecouter (Int)         Electricité (Int)           Electronique  (Int)   Equitation (Dex)      
+Esquive (Dex)         Parer (For)                 Endurance (For)       Porter (For)          
+Main nue (For)        Stoïque (For)               Estimation (Int)      Explosif (Dex)              
+Géologie  (Int)       Grimper (For)               Histoire (Int)        Hypnose (Vol)         
+Informatique (Int)    Inginerie (Int)             Intimidation (For)    Chirurgie (Dex)
+Langues (Int)         Lire sur les lèvres (Int)   Mathématiques (Int)   Mécanique (Int)      
+Médecine (Int)        Météorologie (Int)          Mythe (Int)           Nager (For)           
+Occultisme (Int)      Orientation (Int)           Persuasion (Int)      Pharmacologie (Int)         
+Photographie (Int)    Pickpocket (Dex)            Pister (Int)          Psychologie (Int)     
+Science (Int)         Survie (For)                Zoologie (Int)        Athlétisme (For)
 
 ○ Définir vos armes
 ---------------------------------------------------------------

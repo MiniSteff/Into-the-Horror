@@ -1,52 +1,52 @@
 ○ Définir ses caractéristiques
 ---------------------------------------------------------------
-Lancez 3d6 pour la Force, la Dextérité, l'Intelligence et la Volonté
+Lancez 3d6 pour la Force, la Dextérité, l'Intelligence et la Volonté.
+Vous pouvez inverser, une seule fois, échanger les valeurs de deux caractéristiques.
 
 ○ Définir ses points de vie et sa santé mentale
 ---------------------------------------------------------------
-**Si** votre force est :
-  - Inférieur à 9, lancez 1d6
-  - Inférieur à 11, lancez 1d5+1
-  - Inférieur à 13, lancez 1d4+2
-  - Inférieur à 15, lancez 1d3+3
+Si votre force est :
+  - Inférieur à 9, lancez 1d6+2
+  - Inférieur à 11, lancez 1d5+3
+  - Inférieur à 13, lancez 1d4+4
+  - Inférieur à 15, lancez 1d3+5
   
 Si votre volonté est :
-  - Inférieur à 9, lancez 1d6
-  - Inférieur à 11, lancez 1d5+1
-  - Inférieur à 13, lancez 1d4+2
-  - Inférieur à 15, lancez 1d3+3
+  - Inférieur à 9, lancez 1d8
+  - Inférieur à 11, lancez 1d5+3
+  - Inférieur à 13, lancez 1d4+4
+  - Inférieur à 15, lancez 1d3+5
 
 ○ Définir ses compétences
 ---------------------------------------------------------------
-Votre personnage possède 3 compétences
+Votre personnage possède 2 compétences
 
 Si votre intelligence est :
-  - Inférieur à 9, vous avez 4 compétences en plus
-  - Inférieur à 11, vous avez 3 compétences en plus
-  - Inférieur à 13, vous avez 2 compétences en plus
+  - Inférieur à 9, vous avez 3 compétences en plus
+  - Inférieur à 11, vous avez 2 compétences en plus
+  - Inférieur à 13, vous avez 1 compétences en plus
   - Inférieur à 15, vous n'avez pas de compétence suplémentaire
 
 Il n'existe pas une liste prédéfinit de compétences, mais quelques exemples possibles
-Antrhopologie         Archéologie           Arme à feu          Arme blanche          Arts
-Astronomie            Baratin               Bibliothèque        Biologie              Botanique
-Charme                Chimie                Comédie             Conduite              Contrefaçon
-Crochetage            Cryptographie         Discrétion          Dressage              Droit
-Ecouter               Electricité           Electronique        Equitation            Esquive
-Estimation            Explosif              Géologie            Grimper               Histoire
-Hypnose               Imposture             Informatique        Inginerie             Intimidation
-Langues (...)         Lire sur les lèvres   Mathématiques       Mécanique             Médecine
-Météorologie          Mythe                 Nager               Occultisme            Orientation
-Persuasion            Pharmacologie         Photographie        Pickpocket            Pister
-Psychologie           Science               Survie              Zoologie              Athlétisme
-Acrobatie
+Antrhopologie (Int)   Archéologie (Int)           Arme à feu (Dex)      Arme blanche (For)    Arts  (Int)
+Astronomie (Int)      Baratin (Int)               Bibliothèque (Int)    Biologie (Int)        Botanique (Int)
+Charme (Int)          Chimie (Int)                Comédie (Int)         Conduite (Dex)        Contrefaçon (Dex)
+Crochetage (Dex)      Discrétion (Dex)            Dressage (For)        Sang-Froid (Vol)      Acrobatie (Dex)
+Ecouter (Int)         Electricité (Int)           Electronique  (Int)   Equitation (Dex)      Esquive (Dex)
+Parer (For)           Endurance (For)             Porter (For)          Main nue (For)        Stoïque (For)   
+Estimation (Int)      Explosif (Dex)              Géologie  (Int)       Grimper (For)         Histoire (Int)
+Hypnose (Vol)         Informatique (Int)          Inginerie (Int)       Intimidation (For)    Chirurgie (Dex)
+Langues (Int)         Lire sur les lèvres (Int)   Mathématiques (Int)   Mécanique (Int)       Médecine (Int)
+Météorologie (Int)    Mythe (Int)                 Nager (For)           Occultisme (Int)      Orientation (Int)
+Persuasion (Int)      Pharmacologie (Int)         Photographie (Int)    Pickpocket (Dex)      Pister (Int)
+Psychologie (Int)     Science (Int)               Survie (For)          Zoologie (Int)        Athlétisme (For)
 
 ○ Définir vos armes
 ---------------------------------------------------------------
 Si votre force est inférieur à 9, vous avez :
   - Une arme blanche à deux main (1d6/force) et une arme à feu à une main (1d4/dextérité)
   - Une arme blanche à une main (1d4/force) et une arme à feu à deux mains (1d8/dextérité)
-  - Une arme blanche à une main (1d4/dextérité) et une arme à feu à deux mains (1d8/dextérité)
-
+  
 Si votre force est de 9 à 13, vous avez :
   - Une arme blanche à une main (1d6/force) et une arme à feu à une main (1d4/dextérité) 
   - Une arme blanche à deux mains (1d8/force)
@@ -71,5 +71,4 @@ Il n'existe pas une liste prédéfinit d'objet, demandez à votre MJ pour un obj
 - Objet commum (cigarette, briquet, crayon...etc                2$
 - Objet de luxe (montre, jumelle, lampe... etc)                 5$
 - Objet spécifique (premier soin, outil de crochetage...etc)    10$
-- Vivres (alcool, boisson, ration...etc)                        1$ par unité
-- Logement (à la semaine)                                       5$ / 10$ / 15$ / 20$
+- Vivres (alcool, boisson, ration...etc)                        1$ l'unité

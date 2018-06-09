@@ -1,7 +1,16 @@
+/*
+¦¦¦¦¦¦¦+¦¦¦¦¦¦¦¦+¦¦+   ¦¦+¦¦+     ¦¦¦¦¦¦¦+
+¦¦+----++--¦¦+--++¦¦+ ¦¦++¦¦¦     ¦¦+----+
+¦¦¦¦¦¦¦+   ¦¦¦    +¦¦¦¦++ ¦¦¦     ¦¦¦¦¦+  
++----¦¦¦   ¦¦¦     +¦¦++  ¦¦¦     ¦¦+--+  
+¦¦¦¦¦¦¦¦   ¦¦¦      ¦¦¦   ¦¦¦¦¦¦¦+¦¦¦¦¦¦¦+
++------+   +-+      +-+   +------++------+
+*/
+
 .charsheet 
 { 
     font-family: 'Times New Roman' !important;
-    background: url("https://raw.githubusercontent.com/MiniSteff/Into-the-Myth/master/bg.jpg");
+    background: url("https://raw.githubusercontent.com/MiniSteff/Into-the-Myth/master/bg.jpg") left top #eeeeee;
     margin: 0;
     padding: 0;
     color: #662c2b;
@@ -39,8 +48,7 @@
 
 .sheet-information p{
     width: 150px;
-    font-size: 18px;
-}
+    font-size: 18px;}
 
 .sheet-information input{
     width: 330px;
